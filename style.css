@@ -293,6 +293,21 @@ body {
   text-decoration: underline;
 }
 
+/* Scheduler Container */
+.scheduler-container {
+  margin: 2rem auto;
+  max-width: 1000px;
+  box-shadow: var(--shadow-lg);
+  border-radius: 12px;
+  overflow: hidden;
+  background: var(--white);
+}
+
+.scheduler-container iframe {
+  display: block;
+  width: 100%;
+}
+
 /* Map Container */
 .map-container {
   margin-top: 3rem;
